@@ -1,0 +1,4 @@
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\03constantes\obj\Debug\net10.0\03constantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\03constantes\obj\Debug\net10.0\03constantes.AssemblyInfoInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\03constantes\obj\Debug\net10.0\03constantes.AssemblyInfo.cs
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\03constantes\obj\Debug\net10.0\03constantes.csproj.CoreCompileInputs.cache

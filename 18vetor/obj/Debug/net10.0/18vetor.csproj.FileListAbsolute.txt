@@ -1,0 +1,14 @@
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\bin\Debug\net10.0\18vetor.exe
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\bin\Debug\net10.0\18vetor.deps.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\bin\Debug\net10.0\18vetor.runtimeconfig.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\bin\Debug\net10.0\18vetor.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\bin\Debug\net10.0\18vetor.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\obj\Debug\net10.0\18vetor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\obj\Debug\net10.0\18vetor.AssemblyInfoInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\obj\Debug\net10.0\18vetor.AssemblyInfo.cs
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\obj\Debug\net10.0\18vetor.csproj.CoreCompileInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\obj\Debug\net10.0\18vetor.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\obj\Debug\net10.0\refint\18vetor.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\obj\Debug\net10.0\18vetor.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\obj\Debug\net10.0\18vetor.genruntimeconfig.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\18vetor\obj\Debug\net10.0\ref\18vetor.dll

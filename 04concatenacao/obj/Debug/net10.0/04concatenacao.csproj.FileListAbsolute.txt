@@ -1,0 +1,14 @@
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\bin\Debug\net10.0\04concatenacao.exe
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\bin\Debug\net10.0\04concatenacao.deps.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\bin\Debug\net10.0\04concatenacao.runtimeconfig.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\bin\Debug\net10.0\04concatenacao.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\bin\Debug\net10.0\04concatenacao.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\obj\Debug\net10.0\04concatenacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\obj\Debug\net10.0\04concatenacao.AssemblyInfoInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\obj\Debug\net10.0\04concatenacao.AssemblyInfo.cs
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\obj\Debug\net10.0\04concatenacao.csproj.CoreCompileInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\obj\Debug\net10.0\04concatenacao.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\obj\Debug\net10.0\refint\04concatenacao.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\obj\Debug\net10.0\04concatenacao.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\obj\Debug\net10.0\04concatenacao.genruntimeconfig.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\04concatenacao\obj\Debug\net10.0\ref\04concatenacao.dll

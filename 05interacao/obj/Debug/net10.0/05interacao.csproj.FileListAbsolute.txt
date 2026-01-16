@@ -1,0 +1,14 @@
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\bin\Debug\net10.0\05interacao.exe
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\bin\Debug\net10.0\05interacao.deps.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\bin\Debug\net10.0\05interacao.runtimeconfig.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\bin\Debug\net10.0\05interacao.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\bin\Debug\net10.0\05interacao.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\obj\Debug\net10.0\05interacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\obj\Debug\net10.0\05interacao.AssemblyInfoInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\obj\Debug\net10.0\05interacao.AssemblyInfo.cs
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\obj\Debug\net10.0\05interacao.csproj.CoreCompileInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\obj\Debug\net10.0\05interacao.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\obj\Debug\net10.0\refint\05interacao.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\obj\Debug\net10.0\05interacao.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\obj\Debug\net10.0\05interacao.genruntimeconfig.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\05interacao\obj\Debug\net10.0\ref\05interacao.dll

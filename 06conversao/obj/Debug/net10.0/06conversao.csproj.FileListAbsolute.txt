@@ -1,0 +1,14 @@
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\bin\Debug\net10.0\06conversao.exe
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\bin\Debug\net10.0\06conversao.deps.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\bin\Debug\net10.0\06conversao.runtimeconfig.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\bin\Debug\net10.0\06conversao.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\bin\Debug\net10.0\06conversao.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\obj\Debug\net10.0\06conversao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\obj\Debug\net10.0\06conversao.AssemblyInfoInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\obj\Debug\net10.0\06conversao.AssemblyInfo.cs
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\obj\Debug\net10.0\06conversao.csproj.CoreCompileInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\obj\Debug\net10.0\06conversao.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\obj\Debug\net10.0\refint\06conversao.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\obj\Debug\net10.0\06conversao.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\obj\Debug\net10.0\06conversao.genruntimeconfig.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\06conversao\obj\Debug\net10.0\ref\06conversao.dll

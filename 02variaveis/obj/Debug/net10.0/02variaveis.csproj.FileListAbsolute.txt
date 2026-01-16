@@ -1,0 +1,14 @@
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\bin\Debug\net10.0\02variaveis.exe
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\bin\Debug\net10.0\02variaveis.deps.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\bin\Debug\net10.0\02variaveis.runtimeconfig.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\bin\Debug\net10.0\02variaveis.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\bin\Debug\net10.0\02variaveis.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\obj\Debug\net10.0\02variaveis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\obj\Debug\net10.0\02variaveis.AssemblyInfoInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\obj\Debug\net10.0\02variaveis.AssemblyInfo.cs
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\obj\Debug\net10.0\02variaveis.csproj.CoreCompileInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\obj\Debug\net10.0\02variaveis.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\obj\Debug\net10.0\refint\02variaveis.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\obj\Debug\net10.0\02variaveis.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\obj\Debug\net10.0\02variaveis.genruntimeconfig.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\02variaveis\obj\Debug\net10.0\ref\02variaveis.dll

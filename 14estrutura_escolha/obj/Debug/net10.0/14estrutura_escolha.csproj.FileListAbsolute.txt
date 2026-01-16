@@ -1,0 +1,14 @@
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\bin\Debug\net10.0\14estrutura_escolha.exe
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\bin\Debug\net10.0\14estrutura_escolha.deps.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\bin\Debug\net10.0\14estrutura_escolha.runtimeconfig.json
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\bin\Debug\net10.0\14estrutura_escolha.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\bin\Debug\net10.0\14estrutura_escolha.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\obj\Debug\net10.0\14estrutura_escolha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\obj\Debug\net10.0\14estrutura_escolha.AssemblyInfoInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\obj\Debug\net10.0\14estrutura_escolha.AssemblyInfo.cs
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\obj\Debug\net10.0\14estrutura_escolha.csproj.CoreCompileInputs.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\obj\Debug\net10.0\14estrutura_escolha.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\obj\Debug\net10.0\refint\14estrutura_escolha.dll
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\obj\Debug\net10.0\14estrutura_escolha.pdb
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\obj\Debug\net10.0\14estrutura_escolha.genruntimeconfig.cache
+C:\Users\165447\Desktop\Lógica e Algoritmos com C#\14estrutura_escolha\obj\Debug\net10.0\ref\14estrutura_escolha.dll
