@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\01conceito\\01conceito.csproj": {}
+    "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\20matriz\\20matriz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\01conceito\\01conceito.csproj": {
+    "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\20matriz\\20matriz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\01conceito\\01conceito.csproj",
-        "projectName": "01conceito",
-        "projectPath": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\01conceito\\01conceito.csproj",
+        "projectUniqueName": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\20matriz\\20matriz.csproj",
+        "projectName": "20matriz",
+        "projectPath": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\20matriz\\20matriz.csproj",
         "packagesPath": "C:\\Users\\165447\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\01conceito\\obj\\",
+        "outputPath": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\20matriz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\165447\\AppData\\Roaming\\NuGet\\NuGet.Config",
