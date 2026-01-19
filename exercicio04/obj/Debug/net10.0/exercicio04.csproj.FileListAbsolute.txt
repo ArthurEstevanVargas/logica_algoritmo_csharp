@@ -1,0 +1,15 @@
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\obj\Debug\net10.0\exercicio04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\obj\Debug\net10.0\exercicio04.AssemblyInfoInputs.cache
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\obj\Debug\net10.0\exercicio04.AssemblyInfo.cs
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\obj\Debug\net10.0\exercicio04.csproj.CoreCompileInputs.cache
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\obj\Debug\net10.0\exercicio04.sourcelink.json
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\bin\Debug\net10.0\exercicio04.exe
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\bin\Debug\net10.0\exercicio04.deps.json
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\bin\Debug\net10.0\exercicio04.runtimeconfig.json
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\bin\Debug\net10.0\exercicio04.dll
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\bin\Debug\net10.0\exercicio04.pdb
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\obj\Debug\net10.0\exercicio04.dll
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\obj\Debug\net10.0\refint\exercicio04.dll
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\obj\Debug\net10.0\exercicio04.pdb
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\obj\Debug\net10.0\exercicio04.genruntimeconfig.cache
+C:\Users\165447\Desktop\logica_algoritmo_csharp\exercicio04\obj\Debug\net10.0\ref\exercicio04.dll

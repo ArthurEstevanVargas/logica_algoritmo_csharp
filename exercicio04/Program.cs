@@ -5,80 +5,60 @@
 
     Observação: Neste exercício será utilizado como base o calendário de
     maio de 2024, mas fique à vontade para escolher outro mês/ano.
+
+    Observação: Para saber se um ano é bissexto existe uma regra básica: os anos bissextos são aqueles múltiplos de 4, ou seja, a cada quatro anos temos um ano bissexto. 
+    Por outro lado, esses anos não são múltiplos de 100 (por exemplo,1800, 1900, 2100), exceto os múltiplos de 400 (por exemplo, 1600, 2000, 2400).
+
+    Observação = f(diaalvo - diaancora).
 */
 
-// Data que você quer calcular
-int dia = 29;
-int mes = 10;
-int ano = 2024;
+// Variável
+int diaalvo = 0;
+int diaancora = 1;
+int diadasemana = 0;
 
-// ================================
-// Dia base conhecido
-// Exemplo: 01/01/2024 = Segunda
-// 0 = Segunda, 1 = Terça, ..., 6 = Domingo
-// ================================
-int diaBaseSemana = 0;
+// Obter uma data
+Console.WriteLine("Informe um data");
+string data = Console.ReadLine();
 
-int totalDias = 0;
+// Quebrar a data em dia, mês e ano
+string[] partes = data.Split("/");
 
-// ================================
-// Somar dias dos anos anteriores
-// ================================
-for (int a = 2024; a < ano; a++)
+int dia = int.Parse(partes[0]);
+int mes = int.Parse(partes[1]);
+int ano = int.Parse(partes[2]);
+
+// Vetor com os dias de cada mês do ano
+int[] diasdoano = {31,0,31,30,31,30,31,31,30,31,30,31};
+
+// Condicional - ano bissexto 
+if (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0))
 {
-    bool bissexto =
-        (a % 4 == 0 && a % 100 != 0) ||
-        (a % 400 == 0);
-
-    totalDias += bissexto ? 366 : 365;
+    diasdoano[1] = 29;
+} else if (ano % 100 == 0)
+{
+    diasdoano[1] = 28;
 }
 
-// ================================
-// Dias por mês
-// ================================
-int[] diasPorMes =
+// Laço de repetição para
+for (int indice = 0; indice < (mes - 1); indice++)
 {
-    31, // Janeiro
-    28, // Fevereiro
-    31, // Março
-    30, // Abril
-    31, // Maio
-    30, // Junho
-    31, // Julho
-    31, // Agosto
-    30, // Setembro
-    31, // Outubro
-    30, // Novembro
-    31  // Dezembro
+    diaalvo += diasdoano[indice];
+}
+diaalvo += dia;
+diadasemana = (diaalvo - diaancora) % 7;
+
+// Expressão switch
+string retorno = diadasemana switch
+{
+    0 => "Segunda-feira",
+    1 => "Terça-feira",
+    2 => "Quarta-feira",
+    3 => "Quinta-feira",
+    4 => "Sexta-feira",
+    5 => "Sábado",
+    6 => "Domingo",
+    _ => "Ops, aconteceu algum erro"
 };
 
-// ================================
-// Ajustar fevereiro se bissexto
-// ================================
-bool anoBissexto =
-    (ano % 4 == 0 && ano % 100 != 0) ||
-    (ano % 400 == 0);
-
-if (anoBissexto)
-    diasPorMes[1] = 29;
-
-// ================================
-// Somar dias dos meses anteriores
-// ================================
-for (int i = 0; i < mes - 1; i++)
-{
-    totalDias += diasPorMes[i];
-}
-
-// ================================
-// Somar os dias do mês atual
-// ================================
-totalDias += dia - 1;
-
-// ================================
-// Calcular deslocamento do dia da semana
-// ================================
-int resultado = (diaBaseSemana + totalDias) % 7;
-
-// resultado → número de 0 a 6
-// Você decide como mapear depois
+Console.WriteLine(retorno);
