@@ -9,14 +9,11 @@
     Retorne o valor convertido
 */
 
-// Vetor
 string[] conversoes = { "Real para Dólar", "Dólar para Real" };
 
-// Obter o valor monetario
 Console.WriteLine("Informe um valor monetário:");
 double valormonetario = double.Parse(Console.ReadLine());
 
-// Obter a conversão
 Console.WriteLine("Informe uma conversão:");
 foreach (string conversao in conversoes)
 {

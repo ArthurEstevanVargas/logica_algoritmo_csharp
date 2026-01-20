@@ -14,17 +14,49 @@
 */
 
 int opcao;
-string[,] candidatos = {{"1","Ana"}, {"2","Robson"}, {"3","Evandro"}, {"4", "Sair"}};
+
+string[,] candidatos = {
+    {"1", "Ana"},
+    {"2", "Robson"},
+    {"3", "Evandro"},
+    {"4", "Sair"}
+};
+
+int[] votos = new int[3];
 
 do
 {
-    foreach (string candidato in candidatos)
+    for (int i = 0; i < candidatos.GetLength(0); i++)
     {
-        Console.Write(candidato + " ");
+        Console.WriteLine($"{candidatos[i,0]} - {candidatos[i,1]}");
     }
+
+    Console.Write("Informe uma opção: ");
     opcao = int.Parse(Console.ReadLine());
-    string retorno = opcao switch
+
+    switch (opcao)
     {
-        
-    };
+        case 1:
+            votos[0]++;
+            break;
+        case 2:
+            votos[1]++;
+            break;
+        case 3:
+            votos[2]++;
+            break;
+        case 4:
+            Console.WriteLine("Votação encerrada.");
+            break;
+        default:
+            Console.WriteLine("Opção inválida!");
+            break;
+    }
+
 } while (opcao != 4);
+
+Console.WriteLine("\nResultado da votação:");
+for (int i = 0; i < votos.Length; i++)
+{
+    Console.WriteLine($"{candidatos[i,1]}: {votos[i]} votos");
+}

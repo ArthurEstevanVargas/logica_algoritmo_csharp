@@ -1,0 +1,15 @@
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\bin\Debug\net10.0\exercicio18.exe
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\bin\Debug\net10.0\exercicio18.deps.json
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\bin\Debug\net10.0\exercicio18.runtimeconfig.json
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\bin\Debug\net10.0\exercicio18.dll
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\bin\Debug\net10.0\exercicio18.pdb
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\obj\Debug\net10.0\exercicio18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\obj\Debug\net10.0\exercicio18.AssemblyInfoInputs.cache
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\obj\Debug\net10.0\exercicio18.AssemblyInfo.cs
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\obj\Debug\net10.0\exercicio18.csproj.CoreCompileInputs.cache
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\obj\Debug\net10.0\exercicio18.sourcelink.json
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\obj\Debug\net10.0\exercicio18.dll
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\obj\Debug\net10.0\refint\exercicio18.dll
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\obj\Debug\net10.0\exercicio18.pdb
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\obj\Debug\net10.0\exercicio18.genruntimeconfig.cache
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio18\obj\Debug\net10.0\ref\exercicio18.dll

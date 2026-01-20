@@ -12,26 +12,21 @@
     Observação = f(diaalvo - diaancora).
 */
 
-// Variável
 int diaalvo = 0;
 int diaancora = 1;
 int diadasemana = 0;
 
-// Obter uma data
 Console.WriteLine("Informe um data");
 string data = Console.ReadLine();
 
-// Quebrar a data em dia, mês e ano
 string[] partes = data.Split("/");
 
 int dia = int.Parse(partes[0]);
 int mes = int.Parse(partes[1]);
 int ano = int.Parse(partes[2]);
 
-// Vetor com os dias de cada mês do ano
 int[] diasdoano = {31,0,31,30,31,30,31,31,30,31,30,31};
 
-// Condicional - ano bissexto 
 if (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0))
 {
     diasdoano[1] = 29;
@@ -40,7 +35,6 @@ if (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0))
     diasdoano[1] = 28;
 }
 
-// Laço de repetição para
 for (int indice = 0; indice < (mes - 1); indice++)
 {
     diaalvo += diasdoano[indice];
@@ -48,7 +42,6 @@ for (int indice = 0; indice < (mes - 1); indice++)
 diaalvo += dia;
 diadasemana = (diaalvo - diaancora) % 7;
 
-// Expressão switch
 string retorno = diadasemana switch
 {
     0 => "Segunda-feira",

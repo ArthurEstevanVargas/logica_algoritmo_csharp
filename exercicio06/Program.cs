@@ -10,11 +10,9 @@
      0: Neutro
 */
 
-// Obter um número
 Console.WriteLine("Informe um número neutro, positivo ou negativo");
 int numero = int.Parse(Console.ReadLine());
 
-// Expressão switch
 string retorno = numero switch
 {
     0 => "Neutro",

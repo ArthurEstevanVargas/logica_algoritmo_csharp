@@ -11,23 +11,18 @@
     Paris: +5
 */
 
-// Vetor
 string[] cidades = { "Tóquio", "Lisboa", "Paris" };
 
-// Obter horário
 Console.WriteLine("Informe um horário no horário de Brasília:");
 int horariobrasilia = int.Parse(Console.ReadLine());
 
-// Laço para
 Console.WriteLine("Selecione uma das cidades:");
 foreach (string cidade in cidades)
 {
     Console.WriteLine(cidade);
 }
-// Variável
 string cidadeselecionada = Console.ReadLine();
 
-// Expressão switch
 int retorno = cidadeselecionada switch
 {
     "Tóquio" => horariobrasilia += 12,
@@ -36,7 +31,6 @@ int retorno = cidadeselecionada switch
     _ => 0
 };
 
-// Condicional
 if (retorno > 23)
 {
     Console.WriteLine($"Na cidade de {cidadeselecionada} são {retorno - 24}");

@@ -12,16 +12,13 @@
     Retornando 2 pares e 3 ímpares.
 */
 
-// Variável
 int auxiliar = 1;
 int numerospar = 0;
 int numerosimpar = 0;
 
-// Obter número inteiro
 Console.WriteLine("Informe um número:");
 int numero = int.Parse(Console.ReadLine());
 
-// Laço de repetição enquanto
 do
 {
     Console.WriteLine(auxiliar);

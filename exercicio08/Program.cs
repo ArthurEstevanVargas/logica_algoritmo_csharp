@@ -8,17 +8,14 @@
     Escaleno: todos os lados com medidas distintas.
 */
 
-// Variável
 int[] medidas = new int[3];
 
-// Laco para
 for (int indice = 0; indice < medidas.Length; indice++)
 {
     Console.WriteLine("Informe os lados do triângulo:");
     medidas[indice] = int.Parse(Console.ReadLine());
 }
 
-// Condicional
 if (medidas[0] == medidas[2] && medidas[0] == medidas[1])
 {
     Console.WriteLine("Equilátero: todos os lados congruentes.");

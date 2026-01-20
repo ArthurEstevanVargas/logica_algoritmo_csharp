@@ -10,11 +10,9 @@
     A soma será 25.
 */
 
-// Variável
 int soma = 0;
 int numero = 0;
 
-// Laço de repetição enquanto
 do
 {
     Console.WriteLine("Informe um número (para sair informe 0):");
