@@ -8,26 +8,24 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\165447\\.nuget\\packages\\": {}
+    "C:\\Users\\Arthur Estevan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\exercicio25\\exercicio25.csproj",
+      "projectUniqueName": "C:\\Users\\Arthur Estevan\\Desktop\\logica_algoritmo_csharp\\exercicio25\\exercicio25.csproj",
       "projectName": "exercicio25",
-      "projectPath": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\exercicio25\\exercicio25.csproj",
-      "packagesPath": "C:\\Users\\165447\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\exercicio25\\obj\\",
+      "projectPath": "C:\\Users\\Arthur Estevan\\Desktop\\logica_algoritmo_csharp\\exercicio25\\exercicio25.csproj",
+      "packagesPath": "C:\\Users\\Arthur Estevan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Arthur Estevan\\Desktop\\logica_algoritmo_csharp\\exercicio25\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\165447\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Arthur Estevan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

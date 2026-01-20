@@ -1,0 +1,15 @@
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\bin\Debug\net10.0\20matriz.exe
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\bin\Debug\net10.0\20matriz.deps.json
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\bin\Debug\net10.0\20matriz.runtimeconfig.json
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\bin\Debug\net10.0\20matriz.dll
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\bin\Debug\net10.0\20matriz.pdb
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\obj\Debug\net10.0\20matriz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\obj\Debug\net10.0\20matriz.AssemblyInfoInputs.cache
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\obj\Debug\net10.0\20matriz.AssemblyInfo.cs
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\obj\Debug\net10.0\20matriz.csproj.CoreCompileInputs.cache
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\obj\Debug\net10.0\20matriz.sourcelink.json
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\obj\Debug\net10.0\20matriz.dll
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\obj\Debug\net10.0\refint\20matriz.dll
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\obj\Debug\net10.0\20matriz.pdb
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\obj\Debug\net10.0\20matriz.genruntimeconfig.cache
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\20matriz\obj\Debug\net10.0\ref\20matriz.dll
