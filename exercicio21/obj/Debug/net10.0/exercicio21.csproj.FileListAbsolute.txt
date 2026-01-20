@@ -1,0 +1,15 @@
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\bin\Debug\net10.0\exercicio21.exe
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\bin\Debug\net10.0\exercicio21.deps.json
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\bin\Debug\net10.0\exercicio21.runtimeconfig.json
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\bin\Debug\net10.0\exercicio21.dll
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\bin\Debug\net10.0\exercicio21.pdb
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\obj\Debug\net10.0\exercicio21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\obj\Debug\net10.0\exercicio21.AssemblyInfoInputs.cache
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\obj\Debug\net10.0\exercicio21.AssemblyInfo.cs
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\obj\Debug\net10.0\exercicio21.csproj.CoreCompileInputs.cache
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\obj\Debug\net10.0\exercicio21.sourcelink.json
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\obj\Debug\net10.0\exercicio21.dll
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\obj\Debug\net10.0\refint\exercicio21.dll
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\obj\Debug\net10.0\exercicio21.pdb
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\obj\Debug\net10.0\exercicio21.genruntimeconfig.cache
+C:\Users\Arthur Estevan\Desktop\logica_algoritmo_csharp\exercicio21\obj\Debug\net10.0\ref\exercicio21.dll
