@@ -4,10 +4,13 @@
     Peça um nome até que seja informado o termo "sair".
 */
 
-string ?texto;
+// Declaração de variável
+string? texto;
 
+// Estrutura de repetição
 do
 {
-    Console.WriteLine($"O unico jeito de sair é digitando sair.");
+    Console.WriteLine("O único jeito de sair é digitando sair.");
     texto = Console.ReadLine();
-} while (texto != "sair");
+}
+while (texto != "sair");

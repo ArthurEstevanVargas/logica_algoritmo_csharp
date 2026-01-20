@@ -1,34 +1,29 @@
 ﻿/*
     ATIVIDADE 17
 
-    Crie um sistema de votação
-
-    Haverá quatro opções para o eleitor escolher, sendo três cadidatos e uma opção
-    para finalizar a votação, exemplo:
-    1) Ana
-    2) Robson
-    3) Evandro
-    4) Sair
-
-    Quando finalizar a votação, exiba a quantidade de votos de cada candidato.    
+    Crie um sistema de votação com três candidatos e uma opção para encerrar.
+    Ao final, exiba a quantidade de votos de cada candidato.
 */
 
+// Declaração de variáveis
 int opcao;
 
-string[,] candidatos = {
-    {"1", "Ana"},
-    {"2", "Robson"},
-    {"3", "Evandro"},
-    {"4", "Sair"}
+string[,] candidatos =
+{
+    { "1", "Ana" },
+    { "2", "Robson" },
+    { "3", "Evandro" },
+    { "4", "Sair" }
 };
 
 int[] votos = new int[3];
 
+// Estrutura de repetição
 do
 {
     for (int i = 0; i < candidatos.GetLength(0); i++)
     {
-        Console.WriteLine($"{candidatos[i,0]} - {candidatos[i,1]}");
+        Console.WriteLine($"{candidatos[i, 0]} - {candidatos[i, 1]}");
     }
 
     Console.Write("Informe uma opção: ");
@@ -53,10 +48,12 @@ do
             break;
     }
 
-} while (opcao != 4);
+}
+while (opcao != 4);
 
+// Resultado
 Console.WriteLine("\nResultado da votação:");
 for (int i = 0; i < votos.Length; i++)
 {
-    Console.WriteLine($"{candidatos[i,1]}: {votos[i]} votos");
+    Console.WriteLine($"{candidatos[i, 1]}: {votos[i]} votos");
 }

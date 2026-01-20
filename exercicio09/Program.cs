@@ -1,18 +1,20 @@
 ﻿/*
     ATIVIDADE 09
 
-    Peça uma hora referente ao horário de Brasília (0 até 23).
+    Peça uma hora referente ao horário de Brasília (0 a 23).
     Em seguida liste três cidades e peça para selecionar uma.
-    Tendo essas duas informações, retorne o horário da cidade selecionada.
+    Retorne o horário da cidade selecionada.
 
-    Algumas cidades e seus respectivos fusos horários:
-    Tóquio: +12
-    Lisboa: +4
-    Paris: +5
+    Fusos horários:
+    - Tóquio  : +12
+    - Lisboa : +4
+    - Paris  : +5
 */
 
+// Declaração de variáveis
 string[] cidades = { "Tóquio", "Lisboa", "Paris" };
 
+// Entrada de dados
 Console.WriteLine("Informe um horário no horário de Brasília:");
 int horariobrasilia = int.Parse(Console.ReadLine());
 
@@ -21,8 +23,10 @@ foreach (string cidade in cidades)
 {
     Console.WriteLine(cidade);
 }
+
 string cidadeselecionada = Console.ReadLine();
 
+// Processamento
 int retorno = cidadeselecionada switch
 {
     "Tóquio" => horariobrasilia += 12,
@@ -31,6 +35,7 @@ int retorno = cidadeselecionada switch
     _ => 0
 };
 
+// Saída
 if (retorno > 23)
 {
     Console.WriteLine($"Na cidade de {cidadeselecionada} são {retorno - 24}");

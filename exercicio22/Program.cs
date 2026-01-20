@@ -1,24 +1,27 @@
 ﻿/*
     ATIVIDADE 22
 
-    Crie um vetor contendo 5 nomes.
-
-    Será pedido um nome aleatório, retorne se o nome existe no vetor ou não.
+    Crie um vetor com 5 nomes.
+    Peça um nome e retorne se ele existe no vetor.
 */
 
-string[] nomes = {"Arthur", "Pedro", "João", "Maria", "Bruno"};
+// Declaração de variáveis
+string[] nomes = { "Arthur", "Pedro", "João", "Maria", "Bruno" };
+string? nomeinformado;
 
-string ?nomeinformado;
-
-Console.Write("Informe um nome:");
+// Entrada de dados
+Console.Write("Informe um nome: ");
 nomeinformado = Console.ReadLine();
 
+// Processamento
 foreach (string nome in nomes)
 {
     if (nome == nomeinformado)
     {
         Console.WriteLine("O nome está na lista, parabéns!");
         return;
-    } 
+    }
 }
+
+// Saída
 Console.WriteLine("O nome não está na lista, sinto muito!");

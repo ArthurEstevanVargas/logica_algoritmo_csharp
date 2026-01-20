@@ -1,14 +1,14 @@
 ﻿/*
     ATIVIDADE 27
 
-    Crie uma matriz (3x2) e peça para o usuário
-    informar três nomes e três e-mails.
-
-    Depois de realizar o cadastro, exiba as informações
+    Crie uma matriz 3x2 para armazenar nome e e-mail.
+    Após o cadastro, exiba as informações.
 */
 
-string?[,] informacoes = new string[3,2];
+// Declaração da matriz
+string?[,] informacoes = new string[3, 2];
 
+// Entrada de dados
 for (int z = 0; z < 3; z++)
 {
     Console.WriteLine($"Pessoa {z + 1}");
@@ -20,6 +20,7 @@ for (int z = 0; z < 3; z++)
     informacoes[z, 1] = Console.ReadLine();
 }
 
+// Saída
 foreach (string informacao in informacoes)
 {
     Console.WriteLine(informacao);

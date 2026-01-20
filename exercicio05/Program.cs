@@ -3,16 +3,21 @@
 
     Peça um ano e retorne se é bissexto ou não.
 
-    DICA: Um ano bissexto ocorre a cada 4 anos.
+    DICA:
+    Um ano bissexto ocorre a cada 4 anos,
+    exceto séculos que não são múltiplos de 400.
 */
 
-Console.WriteLine("Informe um ano");
+// Entrada de dados
+Console.WriteLine("Informe um ano:");
 int ano = int.Parse(Console.ReadLine());
 
+// Processamento e saída
 if (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0))
 {
     Console.WriteLine("O ano é bissexto");
-} else if (ano % 100 == 0)
+}
+else if (ano % 100 == 0)
 {
     Console.WriteLine("O ano não é bissexto");
 }
