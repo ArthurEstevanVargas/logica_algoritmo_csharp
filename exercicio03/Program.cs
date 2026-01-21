@@ -1,68 +1,93 @@
 ﻿/*
     ATIVIDADE 03
 
-    Peça duas notas, em seguida realize a média e retorne a situação.
+    Solicite ao usuário duas notas.
 
-    7 - 10   : Aprovado(a)
-    5 - 6.9  : Recuperação
-    0 - 4.9  : Reprovado(a)
+    Calcule a média aritmética e informe a situação do aluno:
+
+    - Média entre 7 e 10   : Aprovado(a)
+    - Média entre 5 e 6.9  : Recuperação
+    - Média entre 0 e 4.9  : Reprovado(a)
 */
 
-// Entrada de dados
-Console.WriteLine("Informe a primeira nota:");
-int nota01 = Convert.ToInt16(Console.ReadLine());
+Menu();
 
-Console.WriteLine("Informe a segunda nota:");
-int nota02 = Convert.ToInt16(Console.ReadLine());
-
-// Processamento
-double media = (nota01 + nota02) / 2;
-
-// Saída
-if (media >= 7 && media <= 10)
+static void Menu()
 {
-    Console.WriteLine("Aprovado(a)");
-}
-else if (media >= 5 && media <= 6.9)
-{
-    Console.WriteLine("Recuperação");
-}
-else if (media >= 0 && media <= 4.9)
-{
-    Console.WriteLine("Reprovado(a)");
-}
+    int opcao;
+    do
+    {
+        Console.WriteLine("1 - Descrição");
+        Console.WriteLine("2 - Executar exercício");
+        Console.WriteLine("0 - Sair");
 
-/*
-    ATIVIDADE 03 (VERSÃO COM LAÇO DE REPETIÇÃO)
+        Console.Write("Escolha uma opção: ");
+        opcao = LerInteiro();
 
-    Peça duas notas, calcule a média e retorne a situação.
-*/
-
-// Declaração de variáveis
-int auxiliar = 0;
-double media = 0;
-
-// Entrada de dados
-for (int indice = 0; indice < 2; indice++)
-{
-    Console.WriteLine($"Informe a {indice}° nota:");
-    auxiliar += 1;
-    media += Convert.ToInt16(Console.ReadLine());
+        switch (opcao)
+        {
+            case 1:
+                MostrarDescricao();
+                break;
+            case 2:
+                Executar();
+                break;
+            case 0:
+                Console.WriteLine("Encerrando o programa...");
+                break;
+            default:
+                Console.WriteLine("Opção inválida.");
+                break;
+        }
+    } while (opcao != 0);
 }
 
-// Processamento
-media /= auxiliar;
+static void Executar()
+{
+    int auxiliar;
+    double media;
 
-// Saída
-if (media >= 7 && media <= 10)
-{
-    Console.WriteLine("Aprovado(a)");
+    for (int indice = 0; indice < 2; indice++)
+    {
+        Console.Write($"Informe a {indice+1}° nota: ");
+        media += LerDouble();
+        auxiliar ++;
+    }
+
+    media /= auxiliar;
+
+    if (media >= 7 && media <= 10)
+    {
+        Console.WriteLine("Aprovado(a)");
+    }
+    else if (media >= 5 && media <= 6.9)
+    {
+        Console.WriteLine("Recuperação");
+    }
+    else if (media >= 0 && media <= 4.9)
+    {
+        Console.WriteLine("Reprovado(a)");
+    }
 }
-else if (media >= 5 && media <= 6.9)
+
+static void MostrarDescricao()
 {
-    Console.WriteLine("Recuperação");
+    Console.WriteLine("ATIVIDADE 03");
+    Console.WriteLine("Solicite duas notas.");
+    Console.WriteLine("Calcule a média e informe a situação do aluno.");
 }
-else if (media >= 0 && media <= 4.9)
+
+static int LerDouble()
 {
-    Console.WriteLine("Reprovado(a)");
+    while (true)
+    {
+        try
+        {
+            return double.Parse(Console.ReadLine());
+        }
+        catch
+        {
+            Console.Write("Entrada inválida. Digite um número inteiro: ");
+        }
+    }
 }

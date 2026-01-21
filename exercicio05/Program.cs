@@ -1,23 +1,73 @@
 ﻿/*
     ATIVIDADE 05
 
-    Peça um ano e retorne se é bissexto ou não.
+    Solicite ao usuário um ano.
 
-    DICA:
-    Um ano bissexto ocorre a cada 4 anos,
-    exceto séculos que não são múltiplos de 400.
+    Verifique se o ano informado é bissexto,
+    considerando as regras:
+
+    - Múltiplos de 4
+    - Não múltiplos de 100, exceto se forem múltiplos de 400
 */
 
-// Entrada de dados
-Console.WriteLine("Informe um ano:");
-int ano = int.Parse(Console.ReadLine());
+Menu();
 
-// Processamento e saída
-if (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0))
+static void Menu()
 {
-    Console.WriteLine("O ano é bissexto");
+    int opcao;
+    do
+    {
+        Console.WriteLine("1 - Descrição");
+        Console.WriteLine("2 - Executar exercício");
+        Console.WriteLine("0 - Sair");
+
+        Console.Write("Escolha uma opção: ");
+        opcao = LerInteiro();
+
+        switch (opcao)
+        {
+            case 1:
+                MostrarDescricao();
+                break;
+            case 2:
+                Executar();
+                break;
+            case 0:
+                Console.WriteLine("Encerrando o programa...");
+                break;
+            default:
+                Console.WriteLine("Opção inválida.");
+                break;
+        }
+    } while (opcao != 0);
 }
-else if (ano % 100 == 0)
+
+static void Executar()
 {
-    Console.WriteLine("O ano não é bissexto");
+    Console.Write("Informe um ano: ");
+    int ano = LerInteiro();
+    
+    Console.WriteLine((ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0)) ? $"O ano {ano} é bissexto" : $"O ano {ano} não é bissexto");
+}
+
+static void MostrarDescricao()
+{
+    Console.WriteLine("ATIVIDADE 05");
+    Console.WriteLine("Solicite um ano.");
+    Console.WriteLine("Verifique se o ano é bissexto ou não.");
+}
+
+static int LerInteiro()
+{
+    while (true)
+    {
+        try
+        {
+            return int.Parse(Console.ReadLine());
+        }
+        catch
+        {
+            Console.Write("Entrada inválida. Digite um número inteiro: ");
+        }
+    }
 }

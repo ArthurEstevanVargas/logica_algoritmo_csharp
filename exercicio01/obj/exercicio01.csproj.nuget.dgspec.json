@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\exercicio01\\exercicio01.csproj": {}
+    "C:\\Users\\165447\\Desktop\\Github\\logica_algoritmo_csharp\\exercicio01\\exercicio01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\exercicio01\\exercicio01.csproj": {
+    "C:\\Users\\165447\\Desktop\\Github\\logica_algoritmo_csharp\\exercicio01\\exercicio01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\exercicio01\\exercicio01.csproj",
+        "projectUniqueName": "C:\\Users\\165447\\Desktop\\Github\\logica_algoritmo_csharp\\exercicio01\\exercicio01.csproj",
         "projectName": "exercicio01",
-        "projectPath": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\exercicio01\\exercicio01.csproj",
+        "projectPath": "C:\\Users\\165447\\Desktop\\Github\\logica_algoritmo_csharp\\exercicio01\\exercicio01.csproj",
         "packagesPath": "C:\\Users\\165447\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\165447\\Desktop\\logica_algoritmo_csharp\\exercicio01\\obj\\",
+        "outputPath": "C:\\Users\\165447\\Desktop\\Github\\logica_algoritmo_csharp\\exercicio01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\165447\\AppData\\Roaming\\NuGet\\NuGet.Config",

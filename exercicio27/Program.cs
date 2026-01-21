@@ -1,27 +1,70 @@
 ﻿/*
     ATIVIDADE 27
 
-    Crie uma matriz 3x2 para armazenar nome e e-mail.
-    Após o cadastro, exiba as informações.
+    Crie uma matriz 3x2 para armazenar:
+
+    - Nome
+    - E-mail
+
+    Após o preenchimento, exiba
+    todas as informações cadastradas.
 */
 
-// Declaração da matriz
-string?[,] informacoes = new string[3, 2];
+Menu();
 
-// Entrada de dados
-for (int z = 0; z < 3; z++)
+static void Menu()
 {
-    Console.WriteLine($"Pessoa {z + 1}");
+    int opcao;
+    do
+    {
+        Console.WriteLine("1 - Descrição");
+        Console.WriteLine("2 - Executar exercício");
+        Console.WriteLine("0 - Sair");
 
-    Console.Write("Informe o nome: ");
-    informacoes[z, 0] = Console.ReadLine();
+        opcao = LerInteiro();
 
-    Console.Write("Informe o email: ");
-    informacoes[z, 1] = Console.ReadLine();
+        switch (opcao)
+        {
+            case 1: MostrarDescricao(); break;
+            case 2: Executar(); break;
+        }
+    } while (opcao != 0);
 }
 
-// Saída
-foreach (string informacao in informacoes)
+static void Executar()
 {
-    Console.WriteLine(informacao);
+    string[,] informacoes = new string[3, 2];
+
+    for (int i = 0; i < 3; i++)
+    {
+        Console.WriteLine($"Pessoa {i + 1}");
+
+        Console.Write("Nome: ");
+        informacoes[i, 0] = Console.ReadLine();
+
+        Console.Write("Email: ");
+        informacoes[i, 1] = Console.ReadLine();
+    }
+
+    Console.WriteLine("\nDados cadastrados:");
+    for (int i = 0; i < 3; i++)
+    {
+        Console.WriteLine($"Nome: {informacoes[i, 0]} | Email: {informacoes[i, 1]}");
+    }
+}
+
+static void MostrarDescricao()
+{
+    Console.WriteLine("ATIVIDADE 27");
+    Console.WriteLine("Crie uma matriz 3x2 para nome e e-mail.");
+    Console.WriteLine("Exiba todas as informações cadastradas.");
+}
+
+static int LerInteiro()
+{
+    while (true)
+    {
+        try { return int.Parse(Console.ReadLine()); }
+        catch { Console.Write("Digite um número inteiro válido: "); }
+    }
 }

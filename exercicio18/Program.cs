@@ -1,47 +1,93 @@
 ﻿/*
     ATIVIDADE 18
 
-    Sistema para gerenciar médias escolares.
+    Desenvolva um sistema para gerenciar
+    médias escolares.
 
-    Peça duas notas, calcule a média e informe a situação.
-    Ao final, exiba a quantidade de alunos aprovados e reprovados.
+    Solicite notas, calcule médias e
+    informe a situação do aluno.
 */
 
-// Declaração de variáveis
-string opcao;
-int aprovados = 0;
-int reprovados = 0;
+Menu();
 
-// Estrutura de repetição
-do
+static void Menu()
 {
-    Console.Write("Informe o nome do aluno: ");
-    string nome = Console.ReadLine();
-
-    Console.Write("Informe a primeira nota do aluno: ");
-    double nota01 = double.Parse(Console.ReadLine());
-
-    Console.Write("Informe a segunda nota do aluno: ");
-    double nota02 = double.Parse(Console.ReadLine());
-
-    double media = (nota01 + nota02) / 2;
-
-    if (media >= 7)
+    int opcao;
+    do
     {
-        Console.WriteLine($"O aluno {nome} está Aprovado(a).");
-        aprovados++;
-    }
-    else
-    {
-        Console.WriteLine($"O aluno {nome} está Reprovado(a).");
-        reprovados++;
-    }
+        Console.WriteLine("1 - Descrição");
+        Console.WriteLine("2 - Executar exercício");
+        Console.WriteLine("0 - Sair");
 
-    Console.Write("Deseja cadastrar mais um aluno(a)? (SIM/NAO): ");
-    opcao = Console.ReadLine().Trim().ToUpper();
+        opcao = LerInteiro();
 
+        switch (opcao)
+        {
+            case 1: MostrarDescricao(); break;
+            case 2: Executar(); break;
+            case 0: break;
+        }
+    } while (opcao != 0);
 }
-while (opcao == "SIM");
 
-// Saída final
-Console.WriteLine($"A quantidade de alunos aprovados foi {aprovados} e de reprovados foi {reprovados}.");
+static void Executar()
+{
+    int aprovados = 0;
+    int reprovados = 0;
+    string resposta;
+
+    do
+    {
+        Console.Write("Nome do aluno: ");
+        string nome = Console.ReadLine();
+
+        Console.Write("Nota 1: ");
+        double n1 = LerDouble();
+
+        Console.Write("Nota 2: ");
+        double n2 = LerDouble();
+
+        double media = (n1 + n2) / 2;
+
+        if (media >= 7)
+        {
+            Console.WriteLine($"{nome} aprovado(a)");
+            aprovados++;
+        }
+        else
+        {
+            Console.WriteLine($"{nome} reprovado(a)");
+            reprovados++;
+        }
+
+        Console.Write("Cadastrar outro aluno? (SIM/NAO): ");
+        resposta = Console.ReadLine().Trim().ToUpper();
+
+    } while (resposta == "SIM");
+
+    Console.WriteLine($"Aprovados: {aprovados} | Reprovados: {reprovados}");
+}
+
+static void MostrarDescricao()
+{
+    Console.WriteLine("ATIVIDADE 18");
+    Console.WriteLine("Sistema para gerenciamento de médias escolares.");
+}
+
+static int LerInteiro()
+{
+    while (true)
+    {
+        try { return int.Parse(Console.ReadLine()); }
+        catch { Console.Write("Digite um número inteiro: "); }
+    }
+}
+
+static double LerDouble()
+{
+    while (true)
+    {
+        try { return double.Parse(Console.ReadLine()); }
+        catch { Console.Write("Digite um número válido: "); }
+    }
+}

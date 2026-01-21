@@ -1,35 +1,68 @@
 ﻿/*
     ATIVIDADE 14
 
-    Peça dois números e exiba os valores entre eles.
+    Solicite dois números inteiros.
 
-    Exemplo:
-    Entrada: 2 e 5
-    Saída: 2 3 4 5
+    Exiba todos os valores existentes
+    entre esses dois números.
 */
 
-// Declaração de variável auxiliar
-int auxiliar;
+Menu();
 
-// Entrada de dados
-Console.WriteLine("Informe o primeiro número:");
-int numero01 = int.Parse(Console.ReadLine());
-
-Console.WriteLine("Informe o segundo número:");
-int numero02 = int.Parse(Console.ReadLine());
-
-// Ajuste de ordem
-if (numero01 > numero02)
+static void Menu()
 {
-    auxiliar = numero02;
-    numero02 = numero01;
-    numero01 = auxiliar;
+    int opcao;
+    do
+    {
+        Console.WriteLine("1 - Descrição");
+        Console.WriteLine("2 - Executar exercício");
+        Console.WriteLine("0 - Sair");
+
+        opcao = LerInteiro();
+
+        switch (opcao)
+        {
+            case 1: MostrarDescricao(); break;
+            case 2: Executar(); break;
+            case 0: break;
+        }
+    } while (opcao != 0);
 }
 
-// Processamento e saída
-do
+static void Executar()
 {
-    Console.WriteLine(numero01);
-    numero01++;
+    Console.Write("Informe o primeiro número: ");
+    int n1 = LerInteiro();
+
+    Console.Write("Informe o segundo número: ");
+    int n2 = LerInteiro();
+
+    if (n1 > n2)
+    {
+        int aux = n1;
+        n1 = n2;
+        n2 = aux;
+    }
+
+    do
+    {
+        Console.WriteLine(n1);
+        n1++;
+    } while (n1 <= n2);
 }
-while (numero01 <= numero02);
+
+static void MostrarDescricao()
+{
+    Console.WriteLine("ATIVIDADE 14");
+    Console.WriteLine("Solicite dois números inteiros.");
+    Console.WriteLine("Exiba os valores existentes entre eles.");
+}
+
+static int LerInteiro()
+{
+    while (true)
+    {
+        try { return int.Parse(Console.ReadLine()); }
+        catch { Console.Write("Digite um número inteiro: "); }
+    }
+}

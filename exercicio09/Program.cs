@@ -1,46 +1,91 @@
 ﻿/*
     ATIVIDADE 09
 
-    Peça uma hora referente ao horário de Brasília (0 a 23).
-    Em seguida liste três cidades e peça para selecionar uma.
-    Retorne o horário da cidade selecionada.
+    Solicite ao usuário uma hora referente
+    ao horário de Brasília.
 
-    Fusos horários:
-    - Tóquio  : +12
-    - Lisboa : +4
-    - Paris  : +5
+    Escolha uma cidade e informe
+    o horário correspondente, considerando
+    o fuso horário.
 */
 
-// Declaração de variáveis
-string[] cidades = { "Tóquio", "Lisboa", "Paris" };
+Menu();
 
-// Entrada de dados
-Console.WriteLine("Informe um horário no horário de Brasília:");
-int horariobrasilia = int.Parse(Console.ReadLine());
-
-Console.WriteLine("Selecione uma das cidades:");
-foreach (string cidade in cidades)
+static void Menu()
 {
-    Console.WriteLine(cidade);
+    int opcao;
+    do
+    {
+        Console.WriteLine("1 - Descrição");
+        Console.WriteLine("2 - Executar exercício");
+        Console.WriteLine("0 - Sair");
+
+        Console.Write("Escolha uma opção: ");
+        opcao = LerInteiro();
+
+        switch (opcao)
+        {
+            case 1:
+                MostrarDescricao();
+                break;
+            case 2:
+                Executar();
+                break;
+            case 0:
+                Console.WriteLine("Encerrando o programa...");
+                break;
+            default:
+                Console.WriteLine("Opção inválida.");
+                break;
+        }
+    } while (opcao != 0);
 }
 
-string cidadeselecionada = Console.ReadLine();
-
-// Processamento
-int retorno = cidadeselecionada switch
+static void Executar()
 {
-    "Tóquio" => horariobrasilia += 12,
-    "Lisboa" => horariobrasilia += 4,
-    "Paris" => horariobrasilia += 5,
-    _ => 0
-};
+    Console.Write("Informe o horário de Brasília (0 a 23): ");
+    int hora = LerInteiro();
 
-// Saída
-if (retorno > 23)
-{
-    Console.WriteLine($"Na cidade de {cidadeselecionada} são {retorno - 24}");
+    Console.WriteLine("Selecione uma cidade:");
+    Console.WriteLine("Tóquio");
+    Console.WriteLine("Lisboa");
+    Console.WriteLine("Paris");
+    string cidade = Console.ReadLine();
+    
+    int resultado = cidade switch
+    {
+        "Tóquio" => hora + 12,
+        "Lisboa" => hora + 4,
+        "Paris" => hora + 5,
+        _ => hora
+    };
+
+    if (resultado >= 24)
+    {
+        resultado -= 24;
+    }
+
+    Console.WriteLine($"Na cidade de {cidade} são {resultado} horas");
 }
-else
+
+static void MostrarDescricao()
 {
-    Console.WriteLine($"Na cidade de {cidadeselecionada} são {retorno}");
+    Console.WriteLine("ATIVIDADE 09");
+    Console.WriteLine("Solicite uma hora no horário de Brasília.");
+    Console.WriteLine("Converta para o horário de outra cidade.");
+}
+
+static int LerInteiro()
+{
+    while (true)
+    {
+        try
+        {
+            return int.Parse(Console.ReadLine());
+        }
+        catch
+        {
+            Console.Write("Entrada inválida. Digite um número inteiro: ");
+        }
+    }
 }

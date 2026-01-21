@@ -1,16 +1,58 @@
 ﻿/*
     ATIVIDADE 12
 
-    Peça um nome até que seja informado o termo "sair".
+    Solicite nomes ao usuário.
+
+    O programa deve continuar solicitando
+    até que seja informado o termo \"sair\".
+
+    Ao digitar \"sair\", o programa deve ser encerrado.
 */
 
-// Declaração de variável
-string? texto;
+Menu();
 
-// Estrutura de repetição
-do
+static void Menu()
 {
-    Console.WriteLine("O único jeito de sair é digitando sair.");
-    texto = Console.ReadLine();
+    int opcao;
+    do
+    {
+        Console.WriteLine("1 - Descrição");
+        Console.WriteLine("2 - Executar exercício");
+        Console.WriteLine("0 - Sair");
+
+        opcao = LerInteiro();
+
+        switch (opcao)
+        {
+            case 1: MostrarDescricao(); break;
+            case 2: Executar(); break;
+            case 0: break;
+        }
+    } while (opcao != 0);
 }
-while (texto != "sair");
+
+static void Executar()
+{
+    string texto;
+    do
+    {
+        Console.Write("Digite um nome (ou sair): ");
+        texto = Console.ReadLine();
+    } while (texto != "sair");
+}
+
+static void MostrarDescricao()
+{
+    Console.WriteLine("ATIVIDADE 12");
+    Console.WriteLine("Solicite nomes ao usuário.");
+    Console.WriteLine("O programa encerra ao digitar \"sair\".");
+}
+
+static int LerInteiro()
+{
+    while (true)
+    {
+        try { return int.Parse(Console.ReadLine()); }
+        catch { Console.Write("Digite um número inteiro: "); }
+    }
+}
